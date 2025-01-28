@@ -58,7 +58,7 @@ const AudioPlayer: React.FC<AudioPlayerProps> = ({ source }) => {
 
   return (
     <motion.div
-      className="flex items-center justify-center w-full bg-[rgb(30,30,30)] p-4 rounded-lg" // Измененный класс для полной ширины
+      className="flex items-center justify-between w-full bg-[rgb(30,30,30)] p-4 rounded-lg" // Измененный класс для полной ширины
       onMouseEnter={() => setShowVolumeSlider(true)}
       onMouseLeave={() => setShowVolumeSlider(false)}
     >

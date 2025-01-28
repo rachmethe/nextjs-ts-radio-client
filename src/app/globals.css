@@ -14,6 +14,35 @@
   }
 }
 
+@font-face {
+  font-family: "Geist";
+  src: url("/fonts/Geist/Geist-Regular.ttf") format("ttf");
+  font-weight: 400; /* Regular */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Geist";
+  src: url("/fonts/Geist/Geist-Bold.ttf") format("ttf");
+  font-weight: 700; /* Bold */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Geist Mono";
+  src: url("/fonts/GeistMono/GeistMono-Regular.ttf") format("ttf");
+  font-weight: 400; /* Regular */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Geist Mono";
+  src: url("/fonts/GeistMono/GeistMono-Bold.ttf") format("ttf");
+  font-weight: 700; /* Bold */
+  font-style: normal;
+}
+
+
 body {
   color: var(--foreground);
   background: var(--background);
